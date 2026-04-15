@@ -1,0 +1,15 @@
+# Ignore everything first
+*
+
+# Don't ignore directories, so we can traverse into them
+!*/
+
+# Don't ignore Python files
+!*.py
+
+# Don't ignore the gitignore file itself
+!.gitignore
+
+# Un-ignore requirements and README
+!README.md
+!requirements.txt
